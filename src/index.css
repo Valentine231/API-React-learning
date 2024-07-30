@@ -1,0 +1,65 @@
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.main-card {
+  background-color: black;
+  width: 50vw;
+  height: 45vh;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 2.5rem;
+  border: 1px solid red;
+  position: relative;
+  left: 15rem;
+  color: white;
+}
+
+.image {
+  position: relative;
+  right: 9.5rem;
+}
+
+.profile {
+  background-color: gray;
+  padding: 7rem;
+  border-radius: 2.5rem;
+}
+
+.count {
+  position: relative;
+  left: 10rem;
+  bottom: 10rem;
+}
